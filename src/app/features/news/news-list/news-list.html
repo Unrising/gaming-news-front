@@ -1,0 +1,10 @@
+<ul>
+    <li *ngFor="let n of news">
+        <div>
+            {{n.title}}
+            <button (click)="select(n)">Détails</button>
+        </div>
+    </li>
+
+    <p *ngIf="selected">Sélectionné : {{ selected.title }}</p>
+</ul>

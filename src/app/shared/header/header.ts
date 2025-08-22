@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class Header {
 
-  title:string = "Hello Michael";
+  title:string = "Gaming News";
 
 }
